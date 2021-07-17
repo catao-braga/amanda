@@ -9,12 +9,9 @@
 
         .c1{
             display: flex;
-
+            margin-bottom: 250px;
         }
 
-        [class*="con"]{
-            display: flex;
-        }
 
         [class*="col"] {
             padding: 1rem;
@@ -32,25 +29,26 @@
             flex-grow: 1;
         }
 
-    
+        .tall{
+            height: 100px;
+        }
+
     </style>
 
 </head>
 <body>
-    <div class="container-sm, c1">
+    <div class="container-fluid c1">
         <div class="row"></div>
         <div class="col-2" style="background-color:green">Logo</div>
         <div class="col">Estatísticas do Jogador</div>
     </div>
 
-    <br><br><br<br><br><br><br><br><br><br><br><br>
-
-<div class="container, c1">
-        <div class="row">
-            <div class="col">1</div>
-            <div class="col">2</div>
-            <div class="col"></div>
-            <div class="col"></div>
+<div class="container">
+        <div class="row w-50 tall">
+            <div class="col 1x6">1</div>
+            <div class="col 1x6">2</div>
+            <div class="col-12">3</div>
+            <div class="col-12">4</div>
         </div>
 </div>
     
