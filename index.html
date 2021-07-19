@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <style>
-
-        .c1{
-            display: flex;
-            margin-bottom: 250px;
-        }
-
-
-        [class*="col"] {
-            padding: 1rem;
-            background-color: #33b5e5;
-            color: #fff;
-            text-align: center;
-        }
-
-        .menuConfig{
-            position:absolute;
-            left: 0;
-            bottom: 0;
+      
+        .god{
+            width: 100%;
+            height: 100%;
+        
         }
         
-        .size{
-          width: 500px;
+        .general-pattern {
+            background-color: #801919;
+            color: #fff;
+           overflow: hidden;
         }
 
-        .green{
-            background-color: green;
+        .minimal {
+            display: inline-block;
         }
 
-        .pd{
+        .pattern-maker {
             padding: 2rem;
+            color: white;
+            border: 1px solid rgb(121, 121, 120);
+            background-color: rgb(120, 149, 230);
+        }
+
+        .cllmn-left {
+            padding: 120px;
+            background-color: black;
+            border: solid yellow 1px;
+
+
+        }
+
+        .pd0{
+           margin: 0;
+           padding: 0;
         }
 
     </style>
 
 </head>
-<body>
-<!--Header and logo start-->
+
 <body>
     <!--Header and logo start-->
     <div class="general-pattern">
@@ -53,29 +58,15 @@
 
       <!--Header and logo ends, start of Menu-->
 
-      <div class="container">
-        <div class="row">
-          <div class="general-pattern col-2">
+      <div class="d-flex align-items-start container">
+        <div class="d-flex flex-row bd-highlight mb-3">
             <div class="cllmn-left">1</div>
           </div>
-          <div class="col d-flex justify-content-center align-items-center">
+        <div class="row">
+          <div style="background-color: palevioletred; margin-left: 100px;" class="col d-flex justify-content-center align-items-center">
             One of two columns
           </div>
         </div>
       </div>
     </div>
   </body>
-    
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-
-</body>
-</html>
