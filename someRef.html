@@ -7,7 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <style>
-
         .god {
             width: 100%;
             height: 100%;
@@ -35,54 +34,73 @@
         .cllmn-left {
             background-color: black;
             border: solid yellow 1px;
-           
+
         }
 
-        .right-square{
+        .right-square {
             background-color: red;
         }
-    
+
+        .size{
+        height: 150px;
+        width: 150px;
+        
+        }
+
+        .down-size{
+            width: 150px;
+            height: 150px;
+            
+        }
+
     </style>
 
 </head>
 
 <body>
+
     <body>
         <!--Header and logo start-->
-        <div class="general-pattern god">
-          <div class="row pattern-maker">
-            <div class="col-3">Logo</div>
-            <div class="col-9">Estatísticas do Jogador</div>
-          </div>
-    
-          <!--Header and logo ends, start of Menu-->
-    
-          <div class="container">
-            <div class="row">
-              <div class="general-pattern col-2 align-items-start">
-                <div class="cllmn-left">1</div>
-              </div>
-              <div class="col d-flex justify-content-center align-items-center">
-                One of two columns
-              </div>
-              <div class="col d-flex justify-content-center align-items-center">
-                One of two columns
-              </div>
-              <div class="col-fluid d-flex justify-content-center align-items-center">
-                Column 3
-              </div>
-              <div class="col-fluid d-flex justify-content-center align-items-center">
-                Column 4
-              </div>
-              <div class="row right-square">
-                  <div class="col">
-                    The Right Square!
-                  </div>
-              </div>
-
+        <div class="god">
+            <div class="row pattern-maker">
+                <div class="col-3">Logo</div>
+                <div class="col-9">Estatísticas do Jogador</div>
             </div>
-          </div>
+
+            <!--Header and logo ends, start of Menu-->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 align-items-start">
+                        <div class="cllmn-left">1</div>
+                    </div>
+
+                    <div class="col size general-pattern d-flex justify-content-center align-items-center">
+                        One of two columns
+                    </div>
+
+                    <div class="col size general-pattern d-flex justify-content-center align-items-center">
+                        One of two columns
+                    </div>
+
+                    <div class="col d-flex right-square general-pattern justify-content-start align-items-start">
+                        The Right Square!
+                    </div>
+
+                    <div class="row-fluid">
+                    <div class="col down-size general-pattern d-flex justify-content-center align-items-center">
+                        Column 3
+                    </div>
+
+                    <div class="col down-size general-pattern d-flex justify-content-center align-items-center">
+                        Column 4
+                    </div>
+                </div>
+                    
+
+                </div>
+            </div>
         </div>
-      </body>
+    </body>
 
     </div>
