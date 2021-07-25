@@ -17,7 +17,7 @@
             display: inline-block;
         }
 
-        li:hover{
+        .hItems:hover{
             color: black;
             -webkit-transition: 0.4s;
             transition: 0.4s;
@@ -31,6 +31,7 @@
             float: left;
             color: rgb(44, 43, 43);
             margin-left: 10px;
+            list-style: none;
         }
 
         .marginR{
@@ -45,13 +46,15 @@
     <!-- HEADER AHEAD -->
     <div class="container-fluid">
         <div class="row p-4">
-            <div class="col"> 
+            <div class="col-3">
+                <li class="marginR">Logo</li>
+            </div>
+            <div class="col-9"> 
                 <ul class="header">
-                    <li class="marginR">Logo</li>
-                    <li>Sobre</li>
-                    <li>Galeria</li>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
+                    <li class="hItems">Sobre</li>
+                    <li class="hItems">Galeria</li>
+                    <li class="hItems">Facebook</li>
+                    <li class="hItems">Instagram</li>
             </ul>
          </div>
         </div>
